@@ -162,7 +162,10 @@ The Python ETL script performs the following steps:
 
 📸 *Screenshot to add:*
 
-* `docs/python_etl_run.png`
+* <img width="923" height="898" alt="image" src="https://github.com/user-attachments/assets/aca8f8a4-8431-4902-b194-6bc6534fc3a7" />
+<img width="862" height="691" alt="image" src="https://github.com/user-attachments/assets/8cd1f006-77cb-46df-946a-da17ae4f30a3" />
+
+
 
 ---
 
@@ -199,7 +202,8 @@ Since **Tableau Public does not support live MySQL connections**, the cleaned da
 
 📸 *Screenshot to add:*
 
-* `docs/google_sheets_data.png`
+* <img width="1338" height="853" alt="image" src="https://github.com/user-attachments/assets/68b1d078-5b21-4597-a32a-02aaa56aa14d" />
+
 
 ---
 
@@ -214,40 +218,13 @@ The Tableau Public dashboard provides insights such as:
 
 📸 *Screenshot to add:*
 
-* `docs/tableau_dashboard.png`
+* <img width="1645" height="796" alt="image" src="https://github.com/user-attachments/assets/50e22869-90de-4279-b467-7edfb6383d93" />
+<img width="1647" height="796" alt="image" src="https://github.com/user-attachments/assets/d0630913-2215-457d-9299-0786629e6a27" />
+
+
 
 🔗 **Tableau Public Dashboard Link:**
-*Add your public dashboard URL here*
-
----
-
-## 🚀 How to Run the Project
-
-### 1️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 2️⃣ Configure Environment Variables
-
-```bash
-cp .env.example .env
-```
-
-Update MySQL and API credentials.
-
-### 3️⃣ Run ETL Pipeline
-
-```bash
-python scripts/etl_kaggle_to_mysql.py
-```
-
-### 4️⃣ Export to Google Sheets
-
-```bash
-python scripts/export_mysql_to_gsheets.py
-```
+https://public.tableau.com/views/dashboard_layoffs/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ---
 
