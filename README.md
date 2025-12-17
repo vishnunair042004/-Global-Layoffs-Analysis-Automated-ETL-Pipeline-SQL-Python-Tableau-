@@ -39,7 +39,7 @@ Tableau Public Dashboard (Auto Refresh)
 ```
 
 📸 *Screenshot to add:*  
-- `<img width="1024" height="1536" alt="architecture" src="https://github.com/user-attachments/assets/fd35f0ec-e38e-4c8c-b976-0883d293516e" />
+- <img width="1024" height="1536" alt="architecture" src="https://github.com/user-attachments/assets/fd35f0ec-e38e-4c8c-b976-0883d293516e" />
 `
 
 ---
