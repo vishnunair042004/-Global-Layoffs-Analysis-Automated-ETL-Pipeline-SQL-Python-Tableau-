@@ -39,7 +39,8 @@ Tableau Public Dashboard (Auto Refresh)
 ```
 
 📸 *Screenshot to add:*  
-- `docs/etl_architecture.png`
+- `<img width="1024" height="1536" alt="architecture" src="https://github.com/user-attachments/assets/fd35f0ec-e38e-4c8c-b976-0883d293516e" />
+`
 
 ---
 
@@ -86,8 +87,9 @@ global-layoffs-etl/
 
 ## 📊 Dataset Description
 
-- **Source:** Kaggle – Global Layoffs Dataset  
-- **Format:** CSV  
+- **Source:** Kaggle – Global Layoffs Dataset  by swaptr
+- **Format:** CSV
+- **Link:** https://www.kaggle.com/datasets/swaptr/layoffs-2022 
 - **Key Columns:**
   - Company
   - Location
