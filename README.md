@@ -32,7 +32,7 @@ MySQL Stored Procedure (Cleaning & Deduplication)
 ↓
 MySQL Main Table (Clean Data)
 ↓
-Google Sheets (Automated Export)
+Google Sheets (Export using python script)
 ↓
 Tableau Public Dashboard (Auto Refresh)
 
@@ -135,7 +135,7 @@ The Python ETL script performs the following steps:
 
 📸 *Screenshot to add:*
 
-* <img width="923" height="898" alt="image" src="https://github.com/user-attachments/assets/aca8f8a4-8431-4902-b194-6bc6534fc3a7" />
+ <img width="923" height="898" alt="image" src="https://github.com/user-attachments/assets/aca8f8a4-8431-4902-b194-6bc6534fc3a7" />
 <img width="862" height="691" alt="image" src="https://github.com/user-attachments/assets/8cd1f006-77cb-46df-946a-da17ae4f30a3" />
 
 
@@ -149,7 +149,6 @@ The ETL script is scheduled to run **daily**, enabling full automation.
 ### Scheduling Options:
 
 * Windows Task Scheduler
-* Linux Cron Job
 
 This ensures:
 
@@ -159,7 +158,8 @@ This ensures:
 
 📸 *Screenshot to add:*
 
-* `docs/task_scheduler.png`
+* <img width="1327" height="662" alt="image" src="https://github.com/user-attachments/assets/160da5f8-fa84-4b21-8694-f5219b3e98e0" />
+
 
 ---
 
@@ -175,7 +175,7 @@ Since **Tableau Public does not support live MySQL connections**, the cleaned da
 
 📸 *Screenshot to add:*
 
-* <img width="1338" height="853" alt="image" src="https://github.com/user-attachments/assets/68b1d078-5b21-4597-a32a-02aaa56aa14d" />
+<img width="1338" height="853" alt="image" src="https://github.com/user-attachments/assets/68b1d078-5b21-4597-a32a-02aaa56aa14d" />
 
 
 ---
@@ -191,7 +191,7 @@ The Tableau Public dashboard provides insights such as:
 
 📸 *Screenshot to add:*
 
-* <img width="1645" height="796" alt="image" src="https://github.com/user-attachments/assets/50e22869-90de-4279-b467-7edfb6383d93" />
+ <img width="1645" height="796" alt="image" src="https://github.com/user-attachments/assets/50e22869-90de-4279-b467-7edfb6383d93" />
 <img width="1647" height="796" alt="image" src="https://github.com/user-attachments/assets/d0630913-2215-457d-9299-0786629e6a27" />
 
 
@@ -225,6 +225,7 @@ https://public.tableau.com/views/dashboard_layoffs/Dashboard1?:language=en-US&pu
 * Logging and alerting
 * Dockerized deployment
 * Migration to Tableau Cloud for live database connections
+* Automating the script into daily run using Windows task scheduler
 
 ---
 
@@ -239,5 +240,15 @@ This project is licensed under the **MIT License**.
 * Kaggle for the dataset
 * Tableau Public for visualization
 * Open-source Python community
+
+---
+
+# 👤 **Author**
+
+**Vishnu Nair**
+Aspiring Data Analyst | SQL • Power BI • Excel • Python 
+
+📧 **Email:** [vishnunairofficial2004@gmail.com]
+🔗 **LinkedIn:** (www.linkedin.com/in/vishnu-nair-b6a764341)
 
 
