@@ -59,33 +59,6 @@ Tableau Public Dashboard (Auto Refresh)
 
 ---
 
-## 📂 Repository Structure
-
-```
-
-global-layoffs-etl/
-│
-├── scripts/
-│   ├── etl_kaggle_to_mysql.py       # Main ETL pipeline
-│   ├── export_mysql_to_gsheets.py   # Export cleaned data to Google Sheets
-│
-├── sql/
-│   ├── create_tables.sql            # MySQL table creation scripts
-│   ├── stored_procedures.sql        # Data cleaning stored procedure
-│
-├── docs/
-│   ├── etl_architecture.png         # Architecture diagram
-│   ├── tableau_dashboard.png        # Dashboard screenshot
-│
-├── requirements.txt
-├── .gitignore
-├── .env.example
-└── README.md
-
-````
-
----
-
 ## 📊 Dataset Description
 
 - **Source:** Kaggle – Global Layoffs Dataset  by swaptr
