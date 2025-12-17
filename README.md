@@ -39,7 +39,8 @@ Tableau Public Dashboard (Auto Refresh)
 ```
 
 📸 *Screenshot to add:*  
-- <img width="1024" height="1536" alt="architecture" src="https://github.com/user-attachments/assets/fd35f0ec-e38e-4c8c-b976-0883d293516e" />
+- <img width="1536" height="1024" alt="architectire" src="https://github.com/user-attachments/assets/5c8032c0-7042-4e9d-be20-2a36d4ce0b7e" />
+
 `
 
 ---
@@ -108,13 +109,15 @@ global-layoffs-etl/
 Used to store **raw ingested data** before cleaning.
 
 📸 *Screenshot to add:*  
-- `docs/mysql_staging_table.png`
+- <img width="1093" height="222" alt="image" src="https://github.com/user-attachments/assets/6d138f73-d97b-4a52-83d8-8c546fc268ef" />
+
 
 ### Main Table (`layoffs`)
 Stores **fully cleaned and analytics-ready data**.
 
 📸 *Screenshot to add:*  
-- `docs/mysql_main_table.png`
+- <img width="1240" height="226" alt="image" src="https://github.com/user-attachments/assets/f871bd3a-541f-402e-9579-f5644c1a643b" />
+
 
 ---
 
@@ -136,7 +139,12 @@ CALL clean_layoffs_staging();
 
 📸 *Screenshot to add:*
 
-* `docs/stored_procedure_execution.png`
+* <img width="217" height="41" alt="image" src="https://github.com/user-attachments/assets/de46208b-8d75-488d-aea4-f9ffc1dbc423" />
+<img width="1035" height="613" alt="image" src="https://github.com/user-attachments/assets/6f635e0a-d54f-4b90-817c-8f5fd486f2bf" />
+<img width="882" height="496" alt="image" src="https://github.com/user-attachments/assets/fd9f390f-836f-443a-b045-1f3b762dd652" />
+
+
+
 
 ---
 
