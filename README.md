@@ -283,12 +283,3 @@ This project is licensed under the **MIT License**.
 ```
 
 ---
-
-If you want, I can now:
-- Review this README like a **recruiter**
-- Help you choose **screenshots to capture**
-- Write a **LinkedIn post** explaining this project
-- Improve wording for **data engineer / analyst roles**
-
-Just tell me 👍
-```
