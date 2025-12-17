@@ -13,6 +13,7 @@ The pipeline automatically:
 - Automatically refreshes a **Tableau Public dashboard**
 
 This project is designed to closely mimic **real-world ETL and analytics workflows**.
+Dashboard Link: https://public.tableau.com/views/dashboard_layoffs/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ---
 
