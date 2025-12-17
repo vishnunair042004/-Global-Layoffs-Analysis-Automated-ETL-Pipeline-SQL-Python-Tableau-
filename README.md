@@ -1,6 +1,6 @@
 
 
-# 🌍 Global Layoffs Analysis — Automated ETL Pipeline
+# 🌍 Global Layoffs Analysis from 2020 — Automated ETL Pipeline (SQL, Python, Tableau)
 
 This project demonstrates a **fully automated data engineering pipeline** built using **Python, MySQL, and Tableau Public** to analyze the **Global Layoffs dataset**.
 
@@ -143,19 +143,19 @@ The Python ETL script performs the following steps:
 
 ---
 
-## 🔁 Automation
+## 🔁 Automation & Scheduling
 
 The ETL script is scheduled to run **daily**, enabling full automation.
 
-### Scheduling Options:
+This project uses **Windows Task Scheduler** to automate the ETL pipeline.
 
-* Windows Task Scheduler
+Steps automated:
+1. Kaggle dataset download using Kaggle API
+2. Data load into MySQL staging table via Python
+3. Data cleaning & deduplication using MySQL stored procedures
+4. Export of clean data to Google Sheets via Python
+5. Auto-refresh Tableau Public dashboard
 
-This ensures:
-
-* Dataset updates are captured automatically
-* Cleaning is consistently applied
-* Dashboards stay up-to-date
 
 📸 *Screenshot to add:*
 
@@ -202,14 +202,6 @@ https://public.tableau.com/views/dashboard_layoffs/Dashboard1?:language=en-US&pu
 
 ---
 
-## 🔐 Security Practices
-
-* Sensitive credentials stored in `.env`
-* `.env` and API keys excluded via `.gitignore`
-* Service account used for Google Sheets automation
-
----
-
 ## 🎯 Key Learnings
 
 * Designing ETL pipelines using staging and production tables
@@ -226,7 +218,6 @@ https://public.tableau.com/views/dashboard_layoffs/Dashboard1?:language=en-US&pu
 * Logging and alerting
 * Dockerized deployment
 * Migration to Tableau Cloud for live database connections
-* Automating the script into daily run using Windows task scheduler
 
 ---
 
